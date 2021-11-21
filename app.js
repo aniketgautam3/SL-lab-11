@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express()
 const mongoose = require("mongoose")
-const url = "mongodb+srv://samyak:samyak2001@cluster0.xjscy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
+const url = "mongodb+srv://aniket:aniket2001@cluster0.xjscy.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 const mySchema = require('./schema');
 mongoose.connect(url).then(() => console.log("connected to Database"))
 app.use(express.json())
